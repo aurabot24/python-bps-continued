@@ -9,9 +9,9 @@
 Functions for applying BPS patches.
 """
 from zlib import crc32
-from bps import operations as ops
-from bps.validate import check_stream, CorruptFile
-from bps.io import read_bps
+from . import operations as ops
+from .validate import check_stream, CorruptFile
+from .io import read_bps
 
 
 def apply_to_bytearrays(iterable, source_buf, target_buf):

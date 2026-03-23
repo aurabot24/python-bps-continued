@@ -10,8 +10,8 @@ Classes representing patch operations.
 """
 import copy
 from struct import pack
-from bps import util
-from bps import constants as C
+from . import util
+from . import constants as C
 
 
 def _classname(obj):

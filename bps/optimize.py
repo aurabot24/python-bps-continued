@@ -8,9 +8,9 @@
 """
 Tools for optimizing BPS patches.
 """
-from io import BytesIO
-from bps import operations as ops
-from bps.validate import check_stream
+from .io import BytesIO
+from . import operations as ops
+from .validate import check_stream
 
 def optimize(iterable):
 	"""

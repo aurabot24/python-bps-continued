@@ -15,8 +15,8 @@ For more information about the basic algorithm used here, see the article
 
 """
 from zlib import crc32
-from bps import operations as ops
-from bps.util import BlockMap
+from . import operations as ops
+from .util import BlockMap
 
 def iter_blocks(data, blocksize):
 	offset = 0

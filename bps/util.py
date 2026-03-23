@@ -14,7 +14,7 @@ import io
 from array import array
 from time import perf_counter
 from zlib import crc32
-from bps import constants as C
+from . import constants as C
 
 class CRCIOWrapper(io.IOBase):
 	"""

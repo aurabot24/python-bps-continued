@@ -8,7 +8,7 @@
 """
 Tools for creating human-readable versions of BPS patch files.
 """
-import bps.io as bio
+from . import io as bio
 
 def disassemble(in_buf, out_buf):
 	"""

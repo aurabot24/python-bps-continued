@@ -11,10 +11,10 @@ Tools for reading and writing BPS patches.
 from struct import pack, unpack
 import re
 from binascii import b2a_hex, a2b_hex
-from bps import util
-from bps import operations as ops
-from bps import constants as C
-from bps.validate import CorruptFile, check_stream
+from . import util
+from . import operations as ops
+from . import constants as C
+from .validate import CorruptFile, check_stream
 
 
 NON_HEX_DIGIT_RE = re.compile("[^0-9A-Fa-f]")

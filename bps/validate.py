@@ -8,7 +8,7 @@
 """
 Tools for validating BPS patches.
 """
-from bps import operations as ops
+from . import operations as ops
 
 
 class CorruptFile(ValueError):
